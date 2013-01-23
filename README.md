@@ -80,7 +80,7 @@ If we do not, then librarian-puppet will assume we meant the `master` branch.
 
 If we use a `:ref =>`, we can use anything that Git will recognize as a ref.
 This includes any branch name, tag name, SHA, or SHA unique prefix. If we use a
-branch, we can later ask Librarian-pupet to update the modulek by fetching the
+branch, we can later ask Librarian-pupet to update the module by fetching the
 most recent version of the module from that same branch.
 
 The Git source also supports a `:path =>` option. If we use the path option,
